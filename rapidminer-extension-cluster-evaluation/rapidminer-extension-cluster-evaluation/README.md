@@ -1,21 +1,22 @@
-RapidMiner Extension Template
+RapidMiner Extension 
 =============================
 
-A template project for creating a RapidMiner Studio extension. 
+### Extension .jar
+rapidminer-extension-cluster-evaluation\rapidminer-extension-cluster-evaluation\rapidminer-studio\lib\plugins\rapidminer-extension-cluster-evaluation-1.0.0-all.jar
+
+### New Operators
+- Silhouette operator
+- Density operator
+- Rand Index operator
+- Dunn Index operator
+
 
 ### Prerequisite
 * Requires at least Gradle 2.1
 
 ### Getting started
-1. Checkout the extension template
+1. Checkout the extension
 
-2. Change the extension configuration in _build.gradle_ (e.g. replace 'Template' by the desired extension name)
+2. Build and install your extension by executing the _installExtension_ Gradle task 
 
-3. Rename all Java classes and resource file names by replacing 'Template' by the desired extension name.
- _Do not forget to adapt the **docbundle** attribute in the **operators** element of OperatorsTemplate.xml!_
-
-4. Add an extension icon by placing an image named "icon.png" in  _src/main/resources/META-INF/_. 
-
-5. Build and install your extension by executing the _installExtension_ Gradle task 
-
-6. Start RapidMiner Studio and check whether your extension has been loaded
+3. Start RapidMiner Studio and check whether your extension has been loaded
