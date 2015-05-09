@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators name="template" version="5.0"
+	docbundle="com/rapidminer/resources/i18n/OperatorsDocTemplate">
+	<group key="">
+		<group key="modeling">
+			<operator>
+				<key>generate_extract</key>
+				<class>com.rapidminer.operator.features.construction.TextInformationExtractionOperator
+				</class>
+				<replaces>TextInformationExtraction</replaces>
+			</operator>
+			<group key="clustering">
+				<group key="evaluation_method" name="Evaluation Method">
+					<operator>
+						<key>Silhouette</key>
+						<class>com.rapidminer.operator.Silhouette
+						</class>
+						<replaces>Silhouette</replaces>
+					</operator>
+					<operator>
+						<key>Rand Index</key>
+						<class>com.rapidminer.operator.RandIndex
+						</class>
+						<replaces>Rank Index</replaces>
+					</operator>
+					<operator>
+						<key>Dunn Index</key>
+						<class>com.rapidminer.operator.DunnIndex
+						</class>
+						<replaces>Dunn Index</replaces>
+					</operator>
+				    <operator>
+						<key>Density</key>
+						<class>com.rapidminer.operator.Density
+						</class>
+						<replaces>Density</replaces>
+					</operator>
+				</group>
+			</group>
+		</group>
+	</group>
+</operators>
