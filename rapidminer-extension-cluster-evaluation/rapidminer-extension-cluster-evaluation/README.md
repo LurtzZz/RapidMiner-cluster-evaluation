@@ -1,4 +1,4 @@
-RapidMiner Extension 
+RapidMiner Cluster Evaluation Extension 
 =============================
 
 ### Extension .jar
